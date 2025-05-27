@@ -1,18 +1,87 @@
+@charset "UTF-8";
 .banner {
-  background-image: url("../images/header.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 30vh;
+}
+@media screen and (min-width: 480px) {
+  .banner {
+    background-image: url("../images/header.png");
+    width: 100%;
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 479x) {
+  .banner {
+    background-image: url("../images/bannière_mobile.png");
+    width: 100%;
+    background-color: antiquewhite;
+    height: 20vh;
+  }
 }
 
 .logoteam {
-  width: 15%;
-  height: 15%;
+  width: 10%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 414px) {
+  .logoteam {
+    width: 60%;
+  }
+}
+
+.borderpurple {
+  border-top: purple 2px solid;
+}
+
+.borderorange {
+  border-top: orange 2px solid;
+}
+
+.bordergreen {
+  border-top: green 2px solid;
+}
+
+.borderred {
+  border-top: red 2px solid;
+}
+
+.club {
+  width: 45%;
+  text-align: start;
+}
+@media screen and (max-width: 414px) {
+  .club {
+    width: auto;
+    text-align: center;
+  }
+}
+
+.news {
+  background-color: #262624;
+  color: white;
+}
+@media screen and (max-width: 414px) {
+  .news {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .chrono {
+    display: none;
+  }
+}
+
+thead th {
+  background-color: black;
+}
+
+.legende {
+  background-color: #262624;
 }
 
 /*# sourceMappingURL=style.css.map */
