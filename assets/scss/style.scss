@@ -13,7 +13,7 @@
 
   @media screen and (max-width: 479x) {
 
-    background-image: url('../images/bannière_mobile.png');
+    // background-image: url('../images/bannière_mobile.png');
     width: 100%;
     background-color: antiquewhite;
     height: 20vh;
@@ -33,7 +33,7 @@
   align-items: center;
 
   @media screen and (max-width: 414px) {
-    width: 60%;
+    width: 5rem;
 
   }
 }
@@ -64,9 +64,9 @@
   width: 45%;
   text-align: start;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
     width: auto;
-    text-align: center;
+  
 
   }
 }
@@ -75,7 +75,7 @@
   background-color: #262624;
   color: white;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
     display: none;
 
   }
